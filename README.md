@@ -20,8 +20,8 @@ Every UI interaction between the player and the game is achieved by using MVC st
 ## Non-functional Attributes:
  - Efficiency
    - The game should be fast enough on pathfinding.
-     -  Strategy pattern encapsulated different algorithm for different situation. Apply the Strategy pattern to improve efficiency on pathfinding.
-   - The game should run smoothly with a number of enemies bullets on the screen.
+     - To achieve efficiency on pathfinding. We used the Strategy pattern which encapsulated different algorithm for different situation. 
+   - The game should keep being smooth even with a great number of enemies bullets on the screen.
      - By using the Publish Subscribe style, we successfully achieved this non-functional attribute. Since both towers and enemies subscribe each other, the bullets only exist between them. Therefore, handling bullets does not occupy a lot of system resources and redundant graphic computations are avoided.
 
  - Complexity/Challenging
